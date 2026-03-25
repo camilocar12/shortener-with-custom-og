@@ -15,9 +15,14 @@
   status = 200
 
 
-# Catch-all for any unfound short codes
+# Tu invitación en la raíz
 [[redirects]]
-  from = "*"
-  to = "https://www.hawksworx.com/blog/find-that-at/"
-  status = 302
+  from = "/"
+  to = "https://camiloyalejandra12diciembre.my.canva.site/"
+  status = 301
 
+# Redirigir cualquier otro error a la invitación también
+[[redirects]]
+  from = "/*"
+  to = "https://camiloyalejandra12diciembre.my.canva.site/"
+  status = 302
